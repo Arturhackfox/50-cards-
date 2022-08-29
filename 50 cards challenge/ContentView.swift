@@ -29,12 +29,12 @@ struct ContentView: View {
                                 .foregroundColor(cardColor)
                                 
                                 
-                            VStack{
+                            
                                 Image(systemName: "\(i).circle")
                                     .resizable()
                                     .frame(width: 300, height: 300)
                                     
-                            }
+                            
                             
                             
                         }.frame(width: geo.size.width - 50, height: geo.size.height - 100)
